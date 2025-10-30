@@ -1,0 +1,124 @@
+:root {
+  --main-background-color: hsl(200, 100%, 85%);
+  --main-background-color-row-1: hsl(200, 60%, 75%);
+  --main-background-color-row-2: hsl(200, 60%, 70%);
+  --main-color-dark: hsl(200, 100%, 10%);
+  --main-color-light: hsl(200, 100%, 20%);
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--main-background-color);
+  color: var(--main-color-dark);
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.blurred {
+  filter: blur(3px);
+  overflow: hidden;
+}
+
+header {
+  align-items: center;
+  display: flex;
+}
+
+.header-left {
+  align-items: center;
+  border-right: 2px solid var(--main-color-dark);
+  display: flex;
+  justify-content: center;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  width: 50%;
+}
+
+.weather-icon {
+  height: 40px;
+  object-fit: contain;
+  width: 40px;
+}
+
+.weather-icon.large {
+  height: 80px;
+  width: 80px;
+}
+
+.header-current-temp {
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+
+.header-right {
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(2, auto);
+  justify-content: space-around;
+  width: 50%;
+}
+
+.info-group {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  color: var(--main-color-light);
+  font-size: 0.6rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.value-sub-info {
+  font-size: 0.75rem;
+  font-weight: lighter;
+}
+
+.day-section {
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: repeat(auto-fit, 75px);
+  justify-content: center;
+  padding: 1rem;
+}
+
+.day-card {
+  align-items: center;
+  border: 1px solid var(--main-color-dark);
+  border-radius: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0.25rem;
+}
+
+.day-card-day {
+  color: var(--main-color-dark);
+  font-size: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.hour-section {
+  border-spacing: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.hour-row {
+  background-color: var(--main-background-color-row-1);
+}
+
+.hour-row:nth-child(2n) {
+  background-color: var(--main-background-color-row-2);
+}
+
+.hour-row > td {
+  padding: 0.25rem 0.5rem;
+}
