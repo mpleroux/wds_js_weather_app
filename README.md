@@ -15,9 +15,9 @@ I made some notes for myself while I was following the tutorial.
 
 Install create-vite, run initializer, and create package.json: `npm create vite@latest`
 
-Project name: . (current directory)
-Framework: Vanilla
-Variant: JavaScript
+- Project name: . (current directory)
+- Framework: Vanilla
+- Variant: JavaScript
 
 ```sh
 npm install # install requirements
@@ -26,7 +26,7 @@ npm run dev # run locally
 
 Install axios: `npm install axios`
 
-[open-meteo.com API URL](https://api.open-meteo.com/v1/forecast?latitude=42&longitude=-71&timezone=America%2FNew_York&daily=weather_code,temperature_2m_max,temperature_2m_min,apparent_temperature_max,apparent_temperature_min,precipitation_sum&hourly=temperature_2m,apparent_temperature,precipitation,weather_code,wind_speed_10m&current=wind_speed_10m,temperature_2m&timeformat=unixtime&wind_speed_unit=mph&temperature_unit=fahrenheit&precipitation_unit=inch)
+API URL with selected parameters: [api.open-meteo.com](https://api.open-meteo.com/v1/forecast?latitude=42&longitude=-71&timezone=America%2FNew_York&daily=weather_code,temperature_2m_max,temperature_2m_min,apparent_temperature_max,apparent_temperature_min,precipitation_sum&hourly=temperature_2m,apparent_temperature,precipitation,weather_code,wind_speed_10m&current=wind_speed_10m,temperature_2m&timeformat=unixtime&wind_speed_unit=mph&temperature_unit=fahrenheit&precipitation_unit=inch)
 
 Remove the `latitude`, `longitude`, and `timeZone` parameters before passing that URL to `axios.get()` in [./src/weather.js](./src/weather.js)
 
