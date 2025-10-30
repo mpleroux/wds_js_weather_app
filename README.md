@@ -30,7 +30,7 @@ API URL with selected parameters: [api.open-meteo.com](https://api.open-meteo.co
 
 Remove the `latitude`, `longitude`, and `timeZone` parameters before passing that URL to `axios.get()` in [./src/weather.js](./src/weather.js)
 
-Some of [Open Meteo's API parameters](https://open-meteo.com/en/docs) have changed since Kyle's created the project. His code still works as-is so it must still support the older parameters.
+Some of [Open Meteo's API parameters](https://open-meteo.com/en/docs) have changed since Kyle created the project. His code still works as-is so it must still support the older parameters.
 
 - `current_weather` is now `current`
     - `temperature` is now `temperature_2m`
