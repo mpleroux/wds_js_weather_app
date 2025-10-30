@@ -2,7 +2,7 @@
 
 ## Description
 
-This are the local files I created while following a tutorial from the YouTube channel [Web Dev Simplified](https://www.youtube.com/@WebDevSimplified):
+These are the local files I created while following a tutorial from the YouTube channel [Web Dev Simplified](https://www.youtube.com/@WebDevSimplified):
 
 - [How To Build A Weather App In JavaScript Without Needing A Server](https://www.youtube.com/watch?v=w0VEOghdMpQ)
 - [GitHub repository](https://github.com/WebDevSimplified/js-weather-app)
