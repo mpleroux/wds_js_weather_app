@@ -7,7 +7,7 @@ These are the local files I created while following a tutorial from the YouTube 
 - [How To Build A Weather App In JavaScript Without Needing A Server](https://www.youtube.com/watch?v=w0VEOghdMpQ)
 - [GitHub repository](https://github.com/WebDevSimplified/js-weather-app)
 
-I didn't clone or fork the project repo because I wanted to learn how to create everything from scratch. This was a good experience and I learned some things about Vite, Axios, and Open-Meteo's Free Weather API.
+I didn't clone or fork the project repo because I wanted to create everything from scratch. This was a good experience and I learned some things about Vite, Axios, and Open-Meteo's Free Weather API.
 
 I made some notes for myself while I was following the tutorial.
 
