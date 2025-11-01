@@ -11,6 +11,13 @@ I didn't clone or fork the project repo because I wanted to create everything fr
 
 I made some notes for myself while I was following the tutorial.
 
+## Install and run
+
+```sh
+npm install
+npm run dev
+```
+
 ## Notes
 
 Install create-vite, run initializer, and create package.json: `npm create vite@latest`
@@ -19,12 +26,7 @@ Install create-vite, run initializer, and create package.json: `npm create vite@
 - Framework: Vanilla
 - Variant: JavaScript
 
-```sh
-npm install # install requirements
-npm run dev # run locally
-```
-
-Install axios: `npm install axios`
+Add axios to project: `npm install axios`
 
 API URL with selected parameters: [api.open-meteo.com](https://api.open-meteo.com/v1/forecast?latitude=42&longitude=-71&timezone=America%2FNew_York&daily=weather_code,temperature_2m_max,temperature_2m_min,apparent_temperature_max,apparent_temperature_min,precipitation_sum&hourly=temperature_2m,apparent_temperature,precipitation,weather_code,wind_speed_10m&current=wind_speed_10m,temperature_2m&timeformat=unixtime&wind_speed_unit=mph&temperature_unit=fahrenheit&precipitation_unit=inch)
 
