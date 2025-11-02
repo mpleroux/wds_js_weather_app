@@ -8,8 +8,6 @@ These are the local files I created while following the Web Dev Simplified tutor
 
 I didn't clone or fork the project repo because I wanted to create everything from scratch. This was a good experience and I learned how to create a non-trivial JavaScript app without a framework.
 
-I made some notes for myself while I was following the tutorial.
-
 ## Technologies used
 
 - HTML/CSS/JavaScript
@@ -24,7 +22,7 @@ npm install
 npm run dev
 ```
 
-## Notes from tutorial
+## Notes about tutorial
 
 Install create-vite, run initializer, and create package.json: `npm create vite@latest`
 
