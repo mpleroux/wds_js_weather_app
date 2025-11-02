@@ -2,23 +2,29 @@
 
 ## Description
 
-These are the local files I created while following a tutorial from the YouTube channel [Web Dev Simplified](https://www.youtube.com/@WebDevSimplified):
+These are the local files I created while following the Web Dev Simplified tutorial [How To Build A Weather App In JavaScript Without Needing A Server](https://www.youtube.com/watch?v=w0VEOghdMpQ)
 
-- [How To Build A Weather App In JavaScript Without Needing A Server](https://www.youtube.com/watch?v=w0VEOghdMpQ)
 - [GitHub repository](https://github.com/WebDevSimplified/js-weather-app)
 
-I didn't clone or fork the project repo because I wanted to create everything from scratch. This was a good experience and I learned some things about Vite, Axios, and Open-Meteo's Free Weather API.
+I didn't clone or fork the project repo because I wanted to create everything from scratch. This was a good experience and I learned how to create a non-trivial JavaScript app without a framework.
 
 I made some notes for myself while I was following the tutorial.
 
-## Install and run
+## Technologies used
+
+- HTML/CSS/JavaScript
+- Vite
+- Axios
+- Open Meteo's Free Weather API
+
+## To install and run from repo
 
 ```sh
 npm install
 npm run dev
 ```
 
-## Notes
+## Notes from tutorial
 
 Install create-vite, run initializer, and create package.json: `npm create vite@latest`
 
