@@ -2,9 +2,9 @@
 
 ## Description
 
-These are the local files I created while following the Web Dev Simplified tutorial [How To Build A Weather App In JavaScript Without Needing A Server](https://www.youtube.com/watch?v=w0VEOghdMpQ)
+These are the local files I created while following the Web Dev Simplified tutorial [How To Build A Weather App In JavaScript Without Needing A Server](https://www.youtube.com/watch?v=w0VEOghdMpQ).
 
-- [GitHub repository](https://github.com/WebDevSimplified/js-weather-app)
+- [Project repository](https://github.com/WebDevSimplified/js-weather-app)
 
 I didn't clone or fork the project repo because I wanted to create everything from scratch. This was a good experience and I learned how to create a non-trivial JavaScript app without a framework.
 
